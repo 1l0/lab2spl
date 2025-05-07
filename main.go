@@ -18,7 +18,7 @@ var (
 func init() {
 	log.SetFlags(log.Lshortfile)
 	flag.StringVar(&outputFilename, "o", "", "Output file path.")
-	flag.IntVar(&fps, "f", 30, "FPS.")
+	flag.IntVar(&fps, "fps", 30, "FPS.")
 	flag.Parse()
 }
 

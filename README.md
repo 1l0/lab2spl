@@ -9,7 +9,7 @@ This command generates a spline (.spl) for DaVinci Resolve or Fusion from a .lab
 ## Usage
 
 1. Run the following command with the .lab file path.
-    - By default, `<.lab file path>.srt` should be generated.
+    - By default, `<.lab file path>.spl` should be generated.
 
 ```sh
 lab2spl <file name>.lab
